@@ -107,7 +107,7 @@ if (isset($_GET['act']) && ($_GET['act'] != '')) {
                 if (is_array($check_email)) {
                     $thongbao = "Mật khẩu của bạn là : " . $check_email["password"];
                 } else {
-                    $thongbao = "Email này không tồn tại";
+                    $thongbao = "Email này không tồn tại !";
                 }
             }
             include "view/account/quen_mk.php";
